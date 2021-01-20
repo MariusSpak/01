@@ -1,0 +1,85 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="so@Ld-Q+A,E66k7:V3Sy">Player</variable><variable type="KIND_SpriteKind" id=":iZc?2k$CG[BHer_@#2#">Projectile</variable><variable type="KIND_SpriteKind" id="NZvYoDP0yd^sE^y`{Wof">Food</variable><variable type="KIND_SpriteKind" id="e=Xs}e#s33@~#=84q%M$">Enemy</variable><variable id="6BxPvJ*jwePXjac:7DmS">Dusan</variable><variable id="MUi#BZEu3?g7W*d]]Bmr">mySprite</variable><variable id="b0zN+ycixP!wgQ{)~G9I">Pizza</variable></variables><block type="pxt-on-start" id="o^*J~ion)Jp]d;[K`rFZ" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="~UPw:9j+as74S9ryE0co"><field name="VAR" id="b0zN+ycixP!wgQ{)~G9I">Pizza</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="z%bpAGGETS~mX$0m@7~$"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow><block type="screen_image_picker" id="{ugu$~RVz/A6Q4^E_L%Y"><field name="img">img`
+.............beebbbb............
+............eebbbb4bb...........
+............eb344bb4bb..........
+............e44334bb4bb.........
+............eb433344b4be........
+............4eb43344444be.......
+...........bd4eb43333344bb......
+..........b455d4443333444bb.....
+..........4d5555d444333444bb....
+.........4555555dd4b4443444be...
+........bd5555d555d4bb444444ee..
+........b55ddd665555bb4b44444ee.
+.......bd5555677655554ebb44444eb
+.......43222558855555d4eeb44b4ee
+......b422332ddd555222d4eebbb4be
+......be22232ed55522332db4ebbbbe
+.....bde22222e555e22232edd4bbbbe
+.....b52e222e3555e22222eddd4ebee
+....bd552eee355552e222e355544eee
+....665dd5555555552eee355dd4deee
+...6776555555555555555551554d4ee
+...4885222555dddd6655551544d4eee
+..b45522332555dd677611d444ddeee.
+..4d5222232e55555881d44ddd4eee..
+.bdd5e22222e555115114d54d4ee....
+.b55d2e222e351144d1d55eeee......
+bd5ddd2eee3d444555dd4e..........
+b555115dddd55d544eede...........
+4511d444d5544ee...4de...........
+41d4555d4ee........44...........
+41554eede.......................
+44ee...4e.......................
+`</field></block></value><value name="kind"><shadow type="spritekind" id="EanTs`8ahSreQzWUJM{D"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id=".1^8sT)PE,bZVK5}Tk%["><field name="VAR" id="6BxPvJ*jwePXjac:7DmS">Dusan</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="vfrK=v,V$7pM9].e/,~o"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow><block type="screen_image_picker" id="yovXz=[V}M^78c%S-29L"><field name="img">img`
+. . . . f f f f f . . . . . . . 
+. . . f e e e e e f f f . . . . 
+. . f d d d e e e e d d f . . . 
+. c d d d d d e e e b d c . . . 
+. c d d d d d d e e b d c . . . 
+c d d f d d f d e e f c . f f . 
+c d d f d d f d e e f . . f e f 
+c d e e d d d d e e f . . f e f 
+. f d d d c d e e f f . . f e f 
+. . f f f d e e e e e f . f e f 
+. . . . f e e e e e e e f f f . 
+. . . . f f e e e e e b f f . . 
+. . . f e f f e e c d d f f . . 
+. . f d d b d d c f f f . . . . 
+. . f d d c d d d f f . . . . . 
+. . . f f f f f f f . . . . . . 
+`</field></block></value><value name="kind"><shadow type="spritekind" id="_QXvVVEa`$a?@A9bOAKD"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="S;KtAR;`*t(}VVhhh_6A"><value name="sprite"><block type="variables_get" id="@JN^Tr%V[?1lY2qA~B`Z"><field name="VAR" id="6BxPvJ*jwePXjac:7DmS">Dusan</field></block></value><value name="x"><shadow type="positionPicker" id="S5%h]?PdP^/{H#;v@thH"><field name="index">80</field></shadow></value><value name="y"><shadow type="positionPicker" id="Z4RYFh`kkl+3Fjiu`-]C"><field name="index">112</field></shadow></value><next><block type="spritesetpos" id="ZY.:YWBPj8os9`#`iB9^"><value name="sprite"><block type="variables_get" id="MB^1k{e;Xztf9+2n%,BD"><field name="VAR" id="b0zN+ycixP!wgQ{)~G9I">Pizza</field></block></value><value name="x"><shadow type="positionPicker" id="jOha:oaPR05DM?opF8x("><field name="index">80</field></shadow></value><value name="y"><shadow type="positionPicker" id="1|BPLf5C)6lh5uRA@pNo"><field name="index">16</field></shadow></value><next><block type="spritesetsetflag" id="mqnx9{YM.Y:LPLkhW3`u"><field name="flag">SpriteFlag.StayInScreen</field><value name="sprite"><block type="variables_get" id="=2Nr*0.mAQmz9?iM~z#$"><field name="VAR" id="6BxPvJ*jwePXjac:7DmS">Dusan</field></block></value><value name="on"><shadow type="toggleOnOff" id="c+zSfomL=FWAXoF|@+RF"><field name="on">true</field></shadow></value><next><block type="game_control_sprite" id="A]MT,0L,_A/fs;h0g:8Z"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="f2-v!K(6Vc`0v0[sh~gT"><field name="VAR" id="6BxPvJ*jwePXjac:7DmS">Dusan</field></block></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
